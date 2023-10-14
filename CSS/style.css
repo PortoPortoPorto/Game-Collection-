@@ -1,0 +1,490 @@
+body { 
+	margin:0;
+	padding:0;
+	font-family:'Gill Sans', sans-serif;
+	background-color:#2c2936;	
+ }
+
+ .header {
+ 	padding:20px; 	
+ 	display:flex;
+ 	justify-content:center;
+ 	align-items:center;
+ 	font-size:24px;
+ 	color:#c7c2f2;
+ }
+
+.header h1 {
+	margin-right:25px;
+}
+
+ .page-container{
+ 	color:#c7c2f2;
+ 	width:90%;
+ 	margin-right:5%;
+ 	margin-left:5%;
+ 	margin-top:25px;
+ 	height:3000px;
+
+ }
+
+ .form-container{
+ 	width:70%;
+ 	margin-right:15%;
+ 	margin-left:15%;
+ 	height:350px;
+ 	display:flex;
+ 	justify-content:space-around;
+ 	border:solid 1px #c7c2f2;
+ 	border-radius:5px;
+ 	padding:10px;
+ 	background-color:#1c1724;
+ }
+
+#form-title{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-bottom:40px;
+}
+
+.form-headings{
+	width:150px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	margin-right:20px;
+	margin-left:50px;
+
+}
+
+
+.form-inputs{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	margin-right:20px;
+	margin-left:20px;
+
+}
+
+ .form-input{
+ 	width:250px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+ }
+
+.form-input::placeholder {
+	color:#2c2936;
+	font-size:14px;
+	font-style: italic;
+	font-weight:bold;
+}
+
+ .dropdown-select {
+	width:250px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	color:#2c2936;
+	font-size:14px;
+	font-style: italic;
+	font-weight:bold;	
+ }
+
+#placeholder {
+	color:#c7c2f2;
+	display:none;
+}
+
+
+.option{
+	color:#2c2936;
+	font-size:14px;
+	font-style: italic;
+	font-weight:bold;
+}
+
+ #game-title-input{
+ 	height:30px;
+ 	background-color:#c7c2f2;
+
+
+ }
+
+ #studio-input{
+ 	height:30px;
+ 	background-color:#c7c2f2;
+
+
+ }
+
+ #platform-select{
+ 	height:30px;
+ 	width:258px;
+ 	background-color:#c7c2f2;
+ }
+
+ #genre-select{
+ 	height:30px;
+ 	width:258px;
+ 	background-color:#c7c2f2;
+
+ }
+
+ .submit-button{
+ 	height:50px;
+ 	width:200px;
+ 	margin-top:150px;
+ 	border-radius:5px;
+ 	font-size:20px;
+ 	font-weight:bold;
+ 	background-color:#c7c2f2;
+ 	color:#2c2936;
+ }
+
+ .submit-button:hover{
+ 	background-color:#c2e0f2;
+ }
+
+#hidden-submit-button{
+	display:none;
+}
+
+ .game-collection-container{
+ 	margin-top:25px;
+ 	width:100%;
+ 	height:800px;
+ 	display:flex;
+ 	justify-content:center;
+ }
+
+#your-games {
+	margin-top:40px;
+	margin-bottom:40px;
+	display:flex;
+	justify-content:center;
+}
+
+.game-list{
+	width:28%;
+	height:95%;
+	margin:5px;
+	border:solid 1px #c7c2f2;
+ 	border-radius:5px;
+ 	background-color:#1c1724;
+ }
+
+.game-list h2{
+	display:flex;
+	justify-content:center;
+	margin-top:10px;
+}
+
+.genre-box {
+	height:400px;
+	display:flex;
+	flex-direction:column;
+	justify-content:start;
+	align-items:center;
+	padding:5px;
+}
+
+ #PS3-game-list{
+ 	
+ }
+
+ #PS4-game-list{
+ 
+ }
+
+
+ #Switch-game-list{
+
+ }
+
+.placeholder-game{
+	height:150px;
+	width:95%;
+	margin-left:2.5%;
+	margin-right:2.5%;
+	margin-top:5px;
+	background-color:#c7c2f2;
+ 	border-radius:5px;
+ 	display:flex;
+ 	justify-content:space-between;
+ 	align-items:center;
+}
+
+.thumb-container {
+	height:138px;
+	width:110px;
+	background-color:#2c2936;
+	margin:5px;
+}
+
+.game-info-box {
+	height:125px;
+	width:160px;
+	display:flex;
+	flex-direction:column;
+ 	justify-content:space-around;
+ 	align-items:center;
+}
+
+.title{
+	width:100%;
+	height:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#2c2936;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.studio{
+	width:100%;
+	height:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#2c2936;
+	font-weight:bold;
+	font-style:italic;
+}
+
+.delete{
+	width:36px;
+	height:36px;
+	margin:5px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.genre-header{
+	width:95%;
+	display:flex;
+	justify-content:end;
+}
+
+.genre-name{
+	width:50%;
+	display:flex;
+	justify-content:center;
+
+}
+
+.menu-up{
+	padding:15px;
+	padding-top:35px;
+	margin-left:15%;
+	cursor:pointer;
+
+}
+
+.RPG {
+	color:#81cede;
+}
+
+.horror {
+	color:#9c676c;
+}
+
+.sports {
+	color:#a7c799;
+}
+
+.racing {
+	color:#8b8fe0;
+}
+
+.action {
+	color:#e6ca7e;
+}
+
+.adventure {
+	color:#9c755c;
+}
+
+.simulation {
+	color:#e4e9f0;
+}
+
+.fighting {
+	color:#db9865;	
+}
+
+.FPS {
+	color:#bbc2c4;
+}
+
+.platformer{
+	color:;
+}
+
+.strategy {
+	color:#dba2e0;
+}
+
+
+.alert-success {
+	background-color:#8ad192;
+}
+
+.alert-failure {
+	background-color:#d15c60;
+}
+
+.alert{
+	width:95%;
+	margin-left:2.5%;
+	margin-right:2.5%;
+	height:40px;
+	position:fixed;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	top:0;
+	left:0;
+	margin-top:5px;
+ 	border:solid 1px #c7c2f2;
+ 	border-radius:5px;
+ 	padding:10px;
+ 	font-size:16 px;
+ 	font-weight:bold;
+}
+
+@media (max-width: 1200px) {
+	.title{
+		font-size:15px;
+	}
+	.studio {
+		font-size:14px;
+	}
+
+	.thumb-container {
+	height:69px;
+	width:55px;
+	background-color:#2c2936;
+	margin:5px;
+}
+
+	.placeholder-game{
+	height:90px;
+	width:95%;
+	margin-left:2.5%;
+	margin-right:2.5%;
+	margin-top:5px;
+	background-color:#c7c2f2;
+ 	border-radius:5px;
+ 	display:flex;
+ 	justify-content:space-between;
+ 	align-items:center;
+}
+
+	.game-info-box {
+	height:75px;
+	width:80%;
+	display:flex;
+	flex-direction:column;
+ 	justify-content:space-around;
+ 	align-items:center;
+}
+}
+
+@media (max-width:890px) {
+	.form-container{
+		width:90%;
+		margin-right:5%;
+		margin-left:5%;
+		padding:5px;
+	}
+
+	.form-container h3 {
+		font-size:17px;
+	}
+
+	.form-headings{
+		width:100px;
+		margin-left:15px;
+	}
+
+	.submit-button{
+		font-size:17px;
+		width:160px;
+	}
+
+	.form-inputs {
+		margin-right:10px;
+		margin-left:10px;
+	}
+	.game-collection-container {
+		flex-direction:column;
+			margin-top:25px;
+ 			width:100%;
+ 			height:6000px;
+ 			display:flex;
+ 			justify-content:start;
+ 			align-items:center;
+ 			overflow:hidden;
+	}
+	.game-list{
+		width:80%;
+	}
+}
+
+@media (max-width:590px) {
+	#visible-submit-button {
+		display:none;
+	}
+	#hidden-submit-button {
+		display:flex;
+		justify-content:center;
+		margin-top:0px;
+		margin-left:10%;
+	}
+	.form-container {
+		width:96%;
+		height:400px;
+		margin-right:2%;
+		margin-left:2%;
+		padding:1%;
+		justify-content:center;
+	}
+
+	.form-container h3 {
+		font-size:14px;
+	}
+
+	.form-headings{
+		width:20%;
+		margin-bottom:100px;
+		margin-left:5px;
+		margin-right:0px;
+	}
+
+	.form-inputs{
+		width:70%;
+		margin-left:5px;
+	}
+
+	.form-input{
+		width:98%;
+	}
+
+	#platform-select{
+		width:100%;
+	}
+
+	#genre-select{
+		width:100%;
+	}
+
+	.page-container{
+		width:95%;
+		margin-left:2.5%;
+		margin-right:2.5%;
+	}
+}
